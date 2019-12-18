@@ -1,0 +1,15 @@
+syntax = 'proto3';
+
+package ultra.mysql.v1.structures;
+
+
+message User {
+    string username = 1;
+    string host = 2;
+}
+
+message Access {
+    string username = 1;
+    string host = 2;
+    string db_name = 3;
+}
